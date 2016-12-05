@@ -1,0 +1,41 @@
+/* line 3, ../../sass/jquery.scrolltop.scss */
+.scrolltop {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  border-radius: 0px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-family: 'Sans-serif';
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #b3b3b3;
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/* line 21, ../../sass/jquery.scrolltop.scss */
+.scrolltop:visited {
+  color: white;
+
+}
+/* line 24, ../../sass/jquery.scrolltop.scss */
+.scrolltop:hover {
+  text-decoration: none;
+  color: white;
+}
+/* line 28, ../../sass/jquery.scrolltop.scss */
+.scrolltop:focus {
+  text-decoration: none;
+}
+/* line 31, ../../sass/jquery.scrolltop.scss */
+.scrolltop.active {
+  visibility: visible;
+  opacity: 1;
+}
