@@ -16,6 +16,15 @@ $( ".button" ).click(function() {
   });
 });
 
-
+// scroll change the menu color  -----------------//
+var scroll_pos = 0;
+            $(document).scroll(function() {
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 210) {
+                    $(".button").css('background-color', '#cf0a2c');
+                } else {
+                    $(".button").css('background-color', 'black');
+                }
+            });
 
 });
